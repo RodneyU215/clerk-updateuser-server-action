@@ -11,7 +11,6 @@ export async function updateUser(
   clerkId: string,
   params: basicUserData
 ) {
-  'use server';
   try {
     // Note: These logs will appear in the terminal, not the browser console.
     console.log(
